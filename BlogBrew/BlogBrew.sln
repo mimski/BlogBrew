@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogBrew.Web", "BlogBrew.Web\BlogBrew.Web.csproj", "{FE20B17C-C5F1-4AAE-B931-02BF7203B410}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogBrew.Infrastructure", "BlogBrew.Infrastructure\BlogBrew.Infrastructure.csproj", "{B52F3150-9176-4F32-9410-2D0874209BB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogBrew.Domain", "BlogBrew.Domain\BlogBrew.Domain.csproj", "{9BC2BE27-3B84-4D6A-A6DF-CC0E21D4BC01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogBrew.Application", "BlogBrew.Application\BlogBrew.Application.csproj", "{D4226882-0EDC-493C-B6CD-82AA598E1263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9BC2BE27-3B84-4D6A-A6DF-CC0E21D4BC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC2BE27-3B84-4D6A-A6DF-CC0E21D4BC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC2BE27-3B84-4D6A-A6DF-CC0E21D4BC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4226882-0EDC-493C-B6CD-82AA598E1263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4226882-0EDC-493C-B6CD-82AA598E1263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4226882-0EDC-493C-B6CD-82AA598E1263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4226882-0EDC-493C-B6CD-82AA598E1263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

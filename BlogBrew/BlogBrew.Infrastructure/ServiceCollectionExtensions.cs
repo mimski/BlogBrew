@@ -1,4 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BlogBrew.Application.Interfaces;
+using BlogBrew.Application.Services;
+using BlogBrew.Domain.Interfaces;
+using BlogBrew.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,6 +14,10 @@ public static class ServiceCollectionExtensions
     {
         services.AddDbContext<BlogBrewDbContext>(options =>
             options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+        services.AddScoped<ICategoryRepository, CategoryRepository>();
+        services.AddScoped<IPostRepository, PostRepository>();
+        services.AddScoped<IPostService, PostService>();
 
         return services;
     }
