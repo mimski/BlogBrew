@@ -17,4 +17,8 @@
     <ProjectReference Include="..\BlogBrew.Infrastructure\BlogBrew.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootswatch\" />
+  </ItemGroup>
+
 </Project>
